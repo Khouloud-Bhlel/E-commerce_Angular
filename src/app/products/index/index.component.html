@@ -1,0 +1,82 @@
+<!-- Start Hero Section -->
+<div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <h1>Bienvenue sur notre boutique E-Commerce Les produits</h1>
+                    <p>Découvrez notre vaste sélection de produits de qualité. Que vous recherchiez des vêtements tendance, des gadgets high-tech ou des articles pour la maison, vous êtes au bon endroit.</p>
+                  <p><a routerLink="/ecommerce" class="btn btn-secondary me-2">Achetez maintenant</a></p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-img-wrap">
+                    <img src="assets/images/couch.png" class="img-fluid" alt="Modern Couch" style="width: 300px; float: right;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hero Section -->
+
+
+<div class="container">
+    <h2>Les produits</h2>
+    <div>
+        <app-create class="btn btn-secondary me-2"></app-create>
+        </div>
+        
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" (keyup)="filter($event)" placeholder="Rechercher">
+            <button class="btn btn-outline-secondary" (keyup)="filter($event)" type="button">Search</button>
+        </div>
+        <style>
+             /* In your component's CSS file (e.g., styles.css or styles.scss) */
+.custom-header {
+    /* Add your custom styles here */
+    font-weight: bold;
+    color: #007bff; /* Change the color as needed */
+    text-align: center;
+  }
+        </style>
+       
+  
+    <table mat-table [dataSource]="products" class="mat-elevation-z8" #mytable matSort >
+        <tr mat-header-row *matHeaderRowDef="columns"></tr>
+        <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+            <ng-container matColumnDef="imageart">
+                   <!-- In your component's HTML file -->
+                  <th mat-header-cell *matHeaderCellDef class="custom-header">Image</th>
+
+                            <td mat-cell *matCellDef="let t"><img src={{t.imageart}} alt="" width="80" height="80"/></td>
+            </ng-container>
+            <ng-container matColumnDef="designation">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>Désignation</th>
+                         <td mat-cell *matCellDef="let t">{{ t.designation}}</td>
+            </ng-container>
+            <ng-container matColumnDef="marque">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>Marque</th>
+                         <td mat-cell *matCellDef="let t">{{ t.marque}}</td>
+            </ng-container>
+            <ng-container matColumnDef="prix">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>Prix</th>
+                            <td mat-cell *matCellDef="let t">{{ t.prix}} TND</td>
+            </ng-container>
+            <ng-container matColumnDef="_id">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>Action</th>
+                        <td mat-cell *matCellDef="let t">
+                            <app-view [productId]="t._id"></app-view>
+                                <app-edit [productId]="t._id"></app-edit>
+
+                            <button type="button" (click)=" deleteProduct(t._id)" class="btn btn-default"><i class="bi bi-trash-fill" style="color:red"></i>
+                                 </button></td>
+            </ng-container>
+    </table>
+    
+            <mat-paginator [pageSize]="5" [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
+
+
+
+    	

@@ -1,0 +1,20 @@
+<div class="card text-white bg-danger mb-3" style="max-width: 50rem;">
+    <div class="card-header text-center">Shopping Cart</div>
+    <div class="card-body">
+    <h5 class="card-title">Total: {{total}} </h5>
+    <hr>
+    <h6 class="card-title">Items bought:</h6>
+    <ul>
+    <li *ngFor="let order of productAdded">
+    <div> {{ order.product.designation }} </div>
+    <input type="number" min="0"
+    
+    max={{order.product.qtestock}} [(ngModel)]="order.quantity" (click) =
+    "addTotal(order.product.prix,order.quantity)"/>
+    
+    </li>
+    </ul>
+    <button class="btn btn-light btn-block" (click)="checkoutProduct()" [disabled]="productAdded.length === 0">Checkout
+    </button>
+    </div>
+    </div>

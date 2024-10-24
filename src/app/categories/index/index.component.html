@@ -1,0 +1,123 @@
+<!-- Start Hero Section -->
+<div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <h1>Bienvenue sur notre boutique E-Commerce Les catégories</h1>
+                    <p>Explorez nos différentes sous-catégories pour trouver exactement ce que vous cherchez. Des vêtements élégants aux gadgets innovants, notre boutique en ligne propose une variété de produits qui répondront à vos besoins.</p>
+                                    <p><a routerLink="/ecommerce" class="btn btn-secondary me-2">Achetez maintenant</a></p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-img-wrap">
+                    <img src="assets/images/product-3.png" class="img-fluid" alt="Modern Couch" style="width: 300px; float: right;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hero Section -->
+
+<div class="container">
+    <h2>Les catégories</h2>
+   <div>
+   <app-createCat class="btn btn-secondary me-2"></app-createCat>
+   </div>
+   <div class="input-group mb-3">
+    <input type="text" class="form-control" (keyup)="filter($event)" placeholder="Rechercher">
+    <button class="btn btn-outline-secondary" (keyup)="filter($event)" type="button">Search</button>
+</div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Nom</th>
+                <th width="250px">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let categorie of categories.data">
+                <td><img [src]="categorie.imagecategorie" alt="" width="80" height="80" /></td>
+                <td>{{ categorie.nomcategorie }}</td>
+                <td>
+                <app-view [categorieId]="categorie._id"></app-view>
+       <app-edit [categorieId]="categorie._id"></app-edit>
+                    <button type="button" (click)="
+                    deleteCategorie(categorie._id)" class="btn btn-default">
+                    
+                    <i class="bi bi-trash-fill" style="color:red"></i>
+                    </button>
+                   
+                </td>   
+                
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<!-- Start Why Choose Us Section -->
+<div class="why-choose-section">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-6">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+
+                <div class="row my-5">
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="assets/images/truck.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Fast &amp; Free Shipping</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="assets/images/bag.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Easy to Shop</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="assets/images/support.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>24/7 Support</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="assets/images/return.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Hassle Free Returns</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="img-wrap">
+                    <img src="assets/images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End Why Choose Us Section -->

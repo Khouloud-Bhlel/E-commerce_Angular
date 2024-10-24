@@ -1,0 +1,44 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" (click)="openModal()">
+  <i class="bi bi-plus-circle-fill"></i>
+  Nouvelle Catégorie
+</button>
+
+<!-- Modal -->
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display': display}">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title">Ajout Catégorie</h4>
+              <button type="button" class="btn btn-default" aria-label="Close" (click)="closeModal()">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <ng-template *ngTemplateOutlet="formCategorie"></ng-template>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" (click)="closeModal()">Fermer</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Form -->
+<ng-template #formCategorie>
+  <form (ngSubmit)="ajoutcategorie()">
+      <div class="mb-3">
+          <input type="text" class="form-control" id="nomcategorie" name="nomcategorie" placeholder="Nom de la catégorie" [(ngModel)]="categories.nomcategorie">
+      </div>
+
+      
+   
+    <div class="col-12">
+      <file-pond #myPond [options]="pondOptions"></file-pond>
+    </div>
+
+      <div>
+          <button type="submit" class="btn btn-success" (click)="ajoutcategorie()">Enregistrer</button>
+      </div>
+  </form>
+</ng-template>

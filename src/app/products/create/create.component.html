@@ -1,0 +1,70 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" (click)="openModal()">
+    <i class="bi bi-plus-circle-fill"></i>
+    Nouveau Produit
+    </button>
+    <!-- Modal -->
+    <div class="modal" tabindex="-1"
+    role="dialog" [ngStyle]="{'display':display}">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h4 class="modal-title">Ajout Produit</h4>
+    <button type="button" class="btn btn-secondary me-2" arialabel="Close" (click)="closeModal()"><span ariahidden="true">&times;</span></button>
+    </div>
+    <div class="modal-body">
+    <template *ngTemplateOutlet="formProduct"></template>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default"
+    (click)="closeModal()" >Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Form -->
+    <ng-template #formProduct>
+    <form (ngSubmit)="ajoutarticle()">
+    <div class="mb-3">
+    <input type="text" class="form-control" id="reference" name =
+    "reference" placeholder="référence" [(ngModel)]="products.reference" >
+    </div>
+    <div class="mb-3">
+    <input type="text" class="form-control" id="designation" name =
+    "designation" placeholder="Désignation" [(ngModel)]="products.designation" >
+    </div>
+    <div class="mb-3">
+    <input type="number" class="form-control" id="prix" name = "prix"
+    placeholder="Prix" [(ngModel)]="products.prix" >
+    
+    </div>
+    <div class="mb-3">
+    <input type="text" class="form-control" id="qtestock" name =
+    "qtestock" placeholder="Quantité" [(ngModel)]="products.qtestock" >
+    </div>
+    <div class="mb-3">
+    <input type="text" class="form-control" id="marque" name =
+    "marque" placeholder="Marque" [(ngModel)]="products.marque" >
+    </div>
+    <div>
+    <file-pond #myPond
+    [options]="pondOptions"
+    >
+    </file-pond>
+    </div>
+    <div class="mb-3">
+    Catégories : <select name="scategorieID" class="form-control"
+    [(ngModel)]="products.scategorieID" >
+    <option *ngFor="let sd of scategories"
+    value="{{sd._id}}">
+    {{sd.nomscategorie}}
+    </option>
+    </select>
+    </div>
+    <div>
+    <button type="submit" class="btn btn-success"
+    (clic)="ajoutarticle()">Enregistrer</button>
+    </div>
+    </form>
+    </ng-template>
+    

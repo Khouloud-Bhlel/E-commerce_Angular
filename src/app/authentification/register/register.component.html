@@ -1,0 +1,25 @@
+<form (ngSubmit)="Ajoutuser()" class="form-signup">
+    <h3 class="h3 mb-3 font-weight-normal text-center text-primary">Register</h3>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="email" name="email" placeholder="Email" [(ngModel)]="user.email">
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" [(ngModel)]="user.password">
+    </div>
+    <div class="mb-3">
+        <label for="firstname" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" [(ngModel)]="user.firstname">
+    </div>
+    <div class="mb-3">
+        <label for="lastname" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" [(ngModel)]="user.lastname">
+    </div>
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Register</button>
+    </div>
+    <div class="mb-3 text-center text-secondary">
+        Already have an account? <a class="btn btn-link" routerLink="/login">Login</a>
+    </div>
+</form>

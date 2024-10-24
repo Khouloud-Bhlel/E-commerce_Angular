@@ -1,0 +1,8 @@
+/* In your component's CSS file (e.g., styles.css or styles.scss) */
+.custom-header {
+    /* Add your custom styles here */
+    font-weight: bold;
+    color: #007bff; /* Change the color as needed */
+    text-align: center;
+  }
+  

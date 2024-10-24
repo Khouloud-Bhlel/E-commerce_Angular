@@ -1,0 +1,46 @@
+/* Add your custom styles for the registration form */
+
+.form-signup {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 5%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-signup label {
+    margin-bottom: 0.5rem;
+}
+
+.form-signup input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-signup button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-signup button:hover {
+    background-color: #0056b3;
+}
+
+.form-signup a {
+    text-decoration: none;
+    color: #007bff;
+}

@@ -1,0 +1,20 @@
+<div class="row card-deck">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let p of productOrders">
+        <div class="card text-center">
+            <div class="card-header">
+                <h4>{{ p.product.designation }}</h4>
+            </div>
+            <div class="card-body">
+                <a href="#"><img class="card-img-top" [src]="p.product.imageart" alt="" width="150" height="250"></a>
+                <h5 class="card-title">{{ p.product.prix }} TND</h5>
+                <div class="row">
+                    <div class="col-12 padding-0">
+                        <button class="btn btn-primary" (click)="addProductToCart(p)" [disabled]="p.product.qtestock === 0">
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

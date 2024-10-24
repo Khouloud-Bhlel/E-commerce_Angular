@@ -1,0 +1,20 @@
+<div class="form-signin">
+    <form (ngSubmit)="loginUser()">
+        <h3 class="h3 mb-3 font-weight-normal text-center text-primary">Login</h3>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email" [(ngModel)]="email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" [(ngModel)]="password">
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+        <br>
+        <div class="mb-3 text-center text-secondary">
+            Don't have an account? <a class="btn btn-link" routerLink="/register">Register</a>
+        </div>
+    </form>
+</div>

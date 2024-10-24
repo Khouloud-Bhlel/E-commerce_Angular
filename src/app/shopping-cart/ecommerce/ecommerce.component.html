@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Assurez-vous d'inclure les liens vers les dépendances nécessaires, comme Bootstrap -->
+    <!-- <link rel="stylesheet" href="lien_vers_bootstrap.css"> -->
+    <!-- <script src="lien_vers_bootstrap_js.js"></script> -->
+</head>
+
+<body>
+   
+    <div class="row">
+        <div class="col-md-8">
+            <!-- Assurez-vous que le composant "app-cards" est correctement importé et utilisé -->
+            <app-cards #productsC [hidden]="orderFinished"(productAdded)="addProductToCart($event)"></app-cards>
+        </div>
+        <br>
+        <div class="col-md-3">
+            <!-- Assurez-vous que le composant "app-panier" est correctement importé et utilisé -->
+            <app-panier [productAdded]="productAdded" (onOrderFinished)="finishOrder($event)" #shoppingCartC [hidden]="orderFinished"></app-panier>
+        </div>
+    </div>
+
+    <!-- Assurez-vous de fermer la balise body et html -->
+</body>
+
+</html>

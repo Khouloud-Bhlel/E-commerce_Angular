@@ -1,0 +1,23 @@
+/* Custom CSS for the Ecommerce page */
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content Area Styles */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 56px; /* Adjust based on the height of your fixed navbar */
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  }
+  

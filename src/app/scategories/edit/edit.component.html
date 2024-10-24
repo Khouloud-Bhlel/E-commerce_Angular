@@ -1,0 +1,63 @@
+<!-- Button trigger modal -->
+<button class="btn btn-default" (click)="openModal()">
+    <i class="bi bi-pencil-square" style="color:blue"></i>
+    </button>
+    <!-- Modal -->
+    <div class="modal" tabindex="-1"
+    role="dialog" [ngStyle]="{'display':display}">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h4 class="modal-title">Modification Sous ategorie</h4>
+    
+    <button type="button" class="btn btn-default" aria-
+    label="Close" (click)="closeModal()"><span aria-
+    hidden="true">&times;</span></button>
+    
+    </div>
+    <div class="modal-body">
+    <template *ngTemplateOutlet="formScategorie"></template>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default"
+    
+    (click)="closeModal()" >Close</button>
+    
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    <!-- Form -->
+    <ng-template #formScategorie>
+    <form (ngSubmit)="updatecategorie()">
+    <div class="mb-3">
+    <input type="text" class="form-control" id="nomscategorie" name = "nomscategorie" placeholder="référence" [(ngModel)]="scategories.nomscategorie" >  
+    </div>
+    <div class="mb-3">
+    <input required minlength="4" #designation="ngModel"
+    type="text" class="form-control" id="imagescategoriedesignation" name =
+    "imagescategorie" placeholder="imagescategorie *" [(ngModel)]="scategories.imagescategorie" >
+    
+    </div>
+    <div *ngIf="designation.invalid && (designation.dirty ||
+    
+    designation.touched)"
+    class="alert">
+    <div *ngIf="designation.errors?.['required']" [ngStyle]="{'color': 'red'}">
+    
+   
+    </div>
+    <div *ngIf="designation.errors?.['minlength']" [ngStyle]="{'color':'red'}">
+
+    </div>
+    </div>
+   
+    
+    <div>
+    <button type="submit" class="btn btn-success"
+    
+    (clic)="updatecategorie()">Enregistrer</button>
+    </div>
+    </form>
+    </ng-template>

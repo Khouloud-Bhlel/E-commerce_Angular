@@ -1,0 +1,57 @@
+
+<!-- Start Hero Section -->
+<div class="hero">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-5">
+                <div class="intro-excerpt">
+                    <h1>Bienvenue sur notre boutique E-Commerce Les sous-catégories</h1>
+                    <p>Parcourez nos sous-catégories pour découvrir les dernières tendances et les produits les plus populaires. Nous nous efforçons de vous offrir une expérience de shopping en ligne exceptionnelle, avec une livraison rapide et un service clientèle de qualité.</p>
+                </div>
+               <p><a routerLink="/ecommerce" class="btn btn-secondary me-2">Achetez maintenant</a></p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="hero-img-wrap">
+                    <img src="assets/images/product-1.png" class="img-fluid" alt="Modern Couch" style="width: 300px; float: right;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- End Hero Section -->
+<div class="container">
+    <h2>Les sous-catégories</h2>
+   <div>
+   <app-createscat class="btn btn-secondary me-2"></app-createscat>
+   </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" (keyup)="filter($event)" placeholder="Rechercher">
+        <button class="btn btn-outline-secondary" type="button">Search</button>
+    </div>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Nom</th>
+                <th width="250px">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let scategorie of scategories.data">
+                <td><img [src]="scategorie.imagescategorie" alt="" width="80" height="80" /></td>
+                <td>{{ scategorie.nomscategorie }}</td>
+                <td>
+                   
+                    <app-view [scategorieId]="scategorie._id"></app-view>
+                    <app-edit [scategorieId]="scategorie._id"></app-edit>
+                      
+                    <button type="button" (click)="deleteScategorie(scategorie._id)" class="btn btn-default">
+                        <i class="bi bi-trash-fill" style="color: red"></i> 
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
