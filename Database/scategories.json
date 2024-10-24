@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ab5"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/modehomme.png?alt=media&token=6c74b4e9-9e55-43fd-9869-90ec8a916a0b",
+  "nomscategorie": "Mode Homme",
+  "scategorieID": "61f06deb3d65ee46baf1937a"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ab6"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Mode-femme.png?alt=media&token=a1b79f4b-c013-4d0f-b319-b25a932862e9",
+  "nomscategorie": "Mode Femme",
+  "scategorieID": "61f06deb3d65ee46baf1937b"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ab7"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Mode-enfant.png?alt=media&token=c8bd818b-a650-4a23-8bf3-3f304b563593",
+  "nomscategorie": "Mode Enfant",
+  "scategorieID": "61f06deb3d65ee46baf1937c"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ab8"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Mode-bebe.png?alt=media&token=a15c6524-f6a3-4e5d-8e49-4e61987386a0",
+  "nomscategorie": "Mode Bébé",
+  "scategorieID": "61f06deb3d65ee46baf1937d"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ab9"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Montre.png?alt=media&token=34c2c701-1356-4ec1-aa8d-d371fd9807aa",
+  "nomscategorie": "Montres",
+  "scategorieID": "61f06deb3d65ee46baf1937e"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5aba"
+  },
+  "categorieID": "60a16003c1b48f332c9740c1",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Bagagerie.png?alt=media&token=30dc9865-cbe3-4a4a-8472-1daef4064bbe",
+  "nomscategorie": "Bagagerie",
+  "scategorieID": "61f06deb3d65ee46baf1937f"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5abb"
+  },
+  "categorieID": "60a16051c1b48f332c9740c2",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/sport1.jpg?alt=media&token=f4ce0501-49c5-4d27-8f83-e9d7b5117528",
+  "nomscategorie": "Running",
+  "scategorieID": "61f06deb3d65ee46baf19380"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5abc"
+  },
+  "categorieID": "60a16051c1b48f332c9740c2",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/sport3.jpg?alt=media&token=9a91f6f3-4f3e-4ab6-a9d5-5007a204fbfd",
+  "nomscategorie": "loisirs en plein air",
+  "scategorieID": "61f06deb3d65ee46baf19381"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5abd"
+  },
+  "categorieID": "60a16051c1b48f332c9740c2",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/gym3.jpg?alt=media&token=055b0f4a-cec7-4aad-a3b8-67a035c45416",
+  "nomscategorie": "Sport de raquette",
+  "scategorieID": "61f06deb3d65ee46baf19382"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5abe"
+  },
+  "categorieID": "60a16051c1b48f332c9740c2",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/gym3.jpg?alt=media&token=055b0f4a-cec7-4aad-a3b8-67a035c45416",
+  "nomscategorie": "Sport & Fitness",
+  "scategorieID": "61f06deb3d65ee46baf19383"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5abf"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Maquillage.jpg?alt=media&token=c6d55d48-3a7e-4196-9097-dae3b0323888",
+  "nomscategorie": "Maquillage",
+  "scategorieID": "61f06deb3d65ee46baf19384"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac0"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/ParfumH.jpg?alt=media&token=3a48b836-3e85-4236-b3cf-ac8707867621",
+  "nomscategorie": "Parfum Homme",
+  "scategorieID": "61f06deb3d65ee46baf19385"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac1"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/ParfumF.jpg?alt=media&token=28591a72-be72-4a90-8537-faffaf0c8507",
+  "nomscategorie": "Parfum Femme",
+  "scategorieID": "61f06deb3d65ee46baf19386"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac2"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Hygieneetsante.jpg?alt=media&token=71cb9d09-a703-4e5c-9c51-caf11293bfb2",
+  "nomscategorie": "Hygiene & santé",
+  "scategorieID": "61f06deb3d65ee46baf19387"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac3"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Equipement-medicaux.jpg?alt=media&token=23520efe-7306-4e10-a2c7-43cf4b73e73b",
+  "nomscategorie": "Equipement Medicaux",
+  "scategorieID": "61f06deb3d65ee46baf19388"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac4"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/massage.jpg?alt=media&token=22bdae7a-17b5-4239-b46a-1539a24db748",
+  "nomscategorie": "Massage",
+  "scategorieID": "61f06deb3d65ee46baf19389"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac5"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Vitamines.jpg?alt=media&token=faeffd48-719d-4e8c-92f5-2836191cddb1",
+  "nomscategorie": "Vitamines",
+  "scategorieID": "61f06deb3d65ee46baf1938a"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac6"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Pharmacerie.jpg?alt=media&token=e159f6d1-a24e-4fd7-afbf-2657884a7c59",
+  "nomscategorie": "Pharmacerie",
+  "scategorieID": "61f06deb3d65ee46baf1938b"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac7"
+  },
+  "categorieID": "60a16099c1b48f332c9740c4",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/B%C3%A9b%C3%A9.jpg?alt=media&token=550839b2-e114-4668-8045-9a96d2e185ae",
+  "nomscategorie": "Bébé",
+  "scategorieID": "61f06deb3d65ee46baf1938c"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac8"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Lessive-M.png?alt=media&token=e29d5741-7b82-4ee5-9acb-5f55f6da14c6",
+  "nomscategorie": "Lessives",
+  "scategorieID": "61f06deb3d65ee46baf1938d"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ac9"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Desinfectants.png?alt=media&token=848a030b-159d-49db-ae12-668c3a348686",
+  "nomscategorie": "Desinfectants",
+  "scategorieID": "61f06deb3d65ee46baf1938e"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5aca"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/healthy-m.png?alt=media&token=4ea7c9a4-a619-44ac-b415-b832ea488c39",
+  "nomscategorie": "Sucré & Salé",
+  "scategorieID": "61f06deb3d65ee46baf1938f"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5acb"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Boissons.png?alt=media&token=082e9cef-62f9-4c3a-a75d-88930545d425",
+  "nomscategorie": "Boissons",
+  "scategorieID": "61f06deb3d65ee46baf19390"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5acc"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Petit-Dejeuner.png?alt=media&token=b9ef4466-95ae-4b9a-b36b-e2125c95acc6",
+  "nomscategorie": "Petit Dejeuner",
+  "scategorieID": "61f06deb3d65ee46baf19391"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5acd"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Aliments-En-Conserve-M.png?alt=media&token=5a1fc48a-0e91-4216-8d6d-4a77c46e1525",
+  "nomscategorie": "Conservés",
+  "scategorieID": "61f06deb3d65ee46baf19392"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ace"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/cuisson.png?alt=media&token=ab83c113-f6a5-45d0-a8b3-e3bd039e8289",
+  "nomscategorie": "Cuisson",
+  "scategorieID": "61f06deb3d65ee46baf19393"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5acf"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/nettoyage.png?alt=media&token=412a5649-8638-422d-b7dd-842a6c5fece1",
+  "nomscategorie": "Nettoyage",
+  "scategorieID": "61f06deb3d65ee46baf19394"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad0"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Papiers-et-plastiques-M.png?alt=media&token=97873f54-1348-4b14-a607-f8fde80fef83",
+  "nomscategorie": "Papiers & plastiques",
+  "scategorieID": "61f06deb3d65ee46baf19395"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad1"
+  },
+  "categorieID": "60a160adc1b48f332c9740c5",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Condiments-%26-Sauces-M.png?alt=media&token=fa71d098-f032-40e5-a002-3a5a6b58dffc",
+  "nomscategorie": "Condiments & Sauces",
+  "scategorieID": "61f06deb3d65ee46baf19396"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad2"
+  },
+  "categorieID": "609a83b80c806f32e04bb484",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/A12.jpg?alt=media&token=06ab0e7d-1499-4446-bc0b-28fe7559f443",
+  "nomscategorie": "Smartphones",
+  "scategorieID": "61f06deb3d65ee46baf19370"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad3"
+  },
+  "categorieID": "609a83b80c806f32e04bb484",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Basique.jpg?alt=media&token=ff9939ff-d699-4ab5-beef-c7fc951c3852",
+  "nomscategorie": "Portable",
+  "scategorieID": "61f06deb3d65ee46baf19366"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad4"
+  },
+  "categorieID": "60a15febc1b48f332c9740c0",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/bureautique.jpg?alt=media&token=519d43e7-6fe3-435a-925a-932d99ee7098",
+  "nomscategorie": "Bureautique & accessoires",
+  "scategorieID": "61f06deb3d65ee46baf19375"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad5"
+  },
+  "categorieID": "609a83b80c806f32e04bb484",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/MacBooks.jpg?alt=media&token=e1ab85b5-066a-4d74-a56b-b8375162879c",
+  "nomscategorie": "Electroménager et Meubles",
+  "scategorieID": "61f06deb3d65ee46baf1936a"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad6"
+  },
+  "categorieID": "609a83b80c806f32e04bb484",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Smarttv3.png?alt=media&token=2bda7dcb-8c26-44ee-a6d6-f724ed06e09f",
+  "nomscategorie": "Smart-TV",
+  "scategorieID": "61f06deb3d65ee46baf1936b"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad7"
+  },
+  "categorieID": "609a83b80c806f32e04bb484",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/Grandtv.jpg?alt=media&token=981ba18a-5c77-432d-bc9d-012737d4c61b",
+  "nomscategorie": "TV & SmartTV",
+  "scategorieID": "61f06deb3d65ee46baf1936c"
+},
+{
+  "_id": {
+    "$oid": "6393390123558fd3b55b5ad8"
+  },
+  "categorieID": "60a15febc1b48f332c9740c0",
+  "imagescategorie": "https://firebasestorage.googleapis.com/v0/b/gestcom-4a752.appspot.com/o/MacBooks.jpg?alt=media&token=e1ab85b5-066a-4d74-a56b-b8375162879c",
+  "nomscategorie": "High Tech",
+  "scategorieID": "61f06deb3d65ee46baf19376"
+}]
